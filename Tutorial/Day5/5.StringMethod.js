@@ -6,9 +6,9 @@
 // indexOf
 // toLowerCase,toUpperCase,
 // trim
+// slice
 // charCodeAt
 // split
-// slice
 
 
 
