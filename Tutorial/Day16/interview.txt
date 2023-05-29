@@ -1,0 +1,94 @@
+------------Interviews Question to Days-15 ------------------------
+
+------------Variable-----------------
+
+"Q: What is a variable in JavaScript?"
+A: A variable is a container that holds a value or a reference to a value.
+
+"Q: How do you declare a variable in JavaScript?"
+A: You can declare a variable using the var, let, or const keyword followed by the variable name.
+
+"Q: What is the difference between var, let, and const in JavaScript?"
+A: var is function-scoped, while let and const are block-scoped. let allows you to reassign the variable, while const does not.
+
+"Q: What is the difference between undefined and null in JavaScript?"
+A: undefined means a variable has been declared but has not been assigned a value, while null is an assignment value that represents no value or no object.
+
+------------Data Types-----------------
+
+
+"Q: What are the primitive data types in JavaScript?"
+A: The primitive data types in JavaScript are string, number, boolean, null, undefined, and symbol (added in ES6).
+
+"Q: What is dataType of null"
+A: The data type of null is object.
+
+------------Number method-----------------
+
+"Q: How can you convert a number to a string in JavaScript?"
+A: You can use the toString() or String() a number to a string in JavaScript or add a empty string to number e.g 5+""
+
+
+"Q: What is the difference between parseInt() and parseFloat() methods in JavaScript?"
+A: The parseInt() method parses a string and returns an integer, while the parseFloat() method parses a string and returns a floating-point number.
+
+"Q: What is a NaN value in JavaScript?"
+A: NaN stands for "Not a Number" and is a value returned when a mathematical operation fails or when a value is not a valid number.123a
+
+
+"Q: How can you check if a variable is a number in JavaScript?"
+A: You can use the isNaN() method to check if a variable is not a number. If the variable is a number, isNaN() will return false.
+
+"Q: How can you round a number to a specific number of decimal places in JavaScript?"
+A: You can use the toFixed() method to round a number to a specific number of decimal places in JavaScript. For example, if you want to round a number to two decimal places, you can use the toFixed(2) method.
+
+------------String method-----------------
+
+"Q: How you convert a string to a number, if not convertible. then What is output?"
+A: You can convert a string to a number by using the two methods 1. is using Number() and 2. is using  + before string if not convertible then output is NaN.
+
+"Q: What is use of slice()"
+A: return slice of a string. syntax is-var.slice(start,end)
+
+"Q: How You Remove spaces from string"
+A: using the trim()
+
+
+------------Operators -----------------
+
+"Q: What is the difference between == and === operators in JavaScript?"
+A: The == operator compares the values of two operands, while the === operator compares both the values and the data types of the operands. For example, 5 == "5" would return true, but 5 === "5" would return false.
+
+"Q: What is the difference between the ++ operator and the -- operator in JavaScript?"
+A: The ++ operator increments a variable by 1, while the -- operator decrements a variable by 1. For example, if x = 5, then x++ would make x equal to 6, while x-- would make x equal to 4.
+
+"Q: What is the difference between the && operator and the || operator in JavaScript?"
+A: The && operator returns true if both operands are true, while the || operator returns true if at least one operand is true. For example, true && false would return false, while true || false would return true.
+
+"Q: What is the typeof operator in JavaScript?"
+A: The typeof operator returns the data type of a variable or expression. For example, typeof "hello" would return "string", while typeof 5 would return "number".
+
+
+"Q: What is the ternary operator in JavaScript?"
+A: The ternary operator takes the form of condition ? value1 : value2, where condition is the expression to be evaluated, value1 is the value to be returned if the condition is true, and value2 is the value to be returned if the condition is false. For example, x > 5 ? "greater than 5" : "less than or equal to 5" would return "greater than 5" if x is greater than 5, and "less than or equal to 5" otherwise.
+
+------------Truthy and falsy values -----------------
+
+
+"Q:What are falsy values in JavaScript and give some examples?" 
+
+A:Falsy values are values that are considered false when evaluated in a Boolean context.
+  Some examples of falsy values in JavaScript are: false, 0, "", null, undefined, and NaN.
+
+"Q:What are truthy values in JavaScript and given some examples?"
+
+A:Truthy values are values that are considered true when evaluated in a Boolean context.
+  Some examples of truthy values in JavaScript are: true, 1, "hello", {}, [], and any non-zero number.
+
+"Q:How can you use falsy and truthy values in your code to improve its efficiency?"
+
+A:You can use falsy and truthy values in conditional statements to avoid unnecessary code execution. For example, if a variable is falsy, you can skip a block of code that would otherwise be executed.
+
+"Q:How can you use the ternary operator to handle falsy and truthy values in JavaScript?"
+
+A:You can use the ternary operator to handle falsy and truthy values in a concise way. For example, you can use it to assign a default value to a variable if it is falsy:
